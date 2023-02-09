@@ -4,7 +4,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 const Header = () => {
   return (
     <header className="flex">
-      <div className="w-[295px] h-[65px] border-solid text-center text-[40px] text-white bg-[#1E67AF]">
+      <div className="w-[230px] h-[65px] border-solid text-center text-[40px] text-white bg-[#1E67AF]">
         Logo
       </div>
       <div className="flex">
@@ -16,7 +16,7 @@ const Header = () => {
             type="text"
             name="name"
             placeholder="Search anything here"
-            className="w-[1100px] h-[65px] A1A1A1 placeholder:text-[#A1A1A1] mr-[10px]"
+            className="w-[800px] h-[65px] A1A1A1 placeholder:text-[#A1A1A1] mr-[10px]"
           />
         </form>
         <span className="mt-[23px] text-[#EE0D0D] mr-[10px]">
